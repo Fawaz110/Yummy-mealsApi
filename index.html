@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/logo (1).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div class="loaderParent d-none">
+      <div class="loader">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div class="bar6"></div>
+        <div class="bar7"></div>
+        <div class="bar8"></div>
+        <div class="bar9"></div>
+        <div class="bar10"></div>
+        <div class="bar11"></div>
+        <div class="bar12"></div>
+      </div>
+    </div>
+    <nav class="d-flex">
+      <div class="nav-link py-5">
+        <div class="links">
+          <ul>
+            <li
+              class="wow fadeInUpBig"
+              data-wow-offset=""
+              onclick="showsearchInp()"
+            >
+              Search
+            </li>
+            <li
+              class="wow fadeInUpBig"
+              onclick="showCategory()"
+              data-wow-delay="0.1s"
+            >
+              Categories
+            </li>
+            <li
+              class="wow fadeInUpBig"
+              onclick="displayArea()"
+              data-wow-delay="0.2s"
+            >
+              Area
+            </li>
+            <li
+              class="wow fadeInUpBig"
+              onclick="displayIngred()"
+              data-wow-delay="0.3s"
+            >
+              Ingredients
+            </li>
+            <li
+              class="wow fadeInUpBig"
+              onclick="showContact()"
+              data-wow-delay="0.4s"
+            >
+              Contact Us
+            </li>
+          </ul>
+        </div>
+        <div class="copy-whrite-nav ps-4 text-white">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <p class="p-1">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="nav-still p-3">
+        <div class="logo">
+          <img src="image/logo (1).png" alt="logo" width="100%" />
+        </div>
+        <div class="close-open-tab">
+          <i class="fa-solid fa-bars" id="openTap"></i>
+          <i class="fa-solid fa-x d-none" id="closeTap"></i>
+        </div>
+        <div class="icon-nav-still">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="page w-100 h-auto p-5 pe-0">
+      <div class="container px-4 ps-0">
+        <div id="srachMeals" class="px-5"></div>
+        <div class="row h-auto mb-3" id="cartona"></div>
+
+        <div class="layer-detials">
+          <div class="row" id="detCartona"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
